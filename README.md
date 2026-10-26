@@ -184,27 +184,8 @@ For live packet detection, ensure you launch Streamlit with administrator/root p
   sudo streamlit run frontend/main.py
   ```
 
----
 
-## 📸 Screenshots
 
-<h3 align="center">1. Offline Analysis Mode</h3>
-<p align="center"><i>The Streamlit dashboard allows users to upload custom CSV logs of network traffic to perform offline batch classification (Normal vs. Threat).</i></p>
-<p align="center">
-  <img src="assets/PacketWatch%20(1).png" alt="Offline Analysis Dashboard 1" width="49%" />
-  <img src="assets/PacketWatch%20(2).png" alt="Offline Analysis Dashboard 2" width="49%" />
-</p>
-
-<br>
-
-<h3 align="center">2. Live Packet Sniffing & Detection Mode</h3>
-<p align="center"><i>Real-time network monitoring interface showing active Wi-Fi traffic sniffing and the classifier's security verdict.</i></p>
-<p align="center">
-  <img src="assets/PacketWatch%20(3).png" alt="Live Sniffing & Detection" width="49%" />
-  <img src="assets/PacketWatch%20(4).png" alt="Live Sniffing & Detection" width="49%" />
-</p>
-
----
 
 ## ⚡ Performance Considerations
 - **O(n) Feature Extraction**: Feature extraction scales linearly with the number of captured packets, keeping CPU usage minimal.
